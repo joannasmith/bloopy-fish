@@ -1,36 +1,20 @@
-*.py[cod]
-
-# C extensions
-*.so
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-__pycache__
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
+#eclipse files
 .project
-.pydevproject
+.settings
+
+# temp files
+.DS_Store
+Thumbs.db
+Desktop.ini
+npm-debug.log
+
+# project specific ignore
+node_modules/
+
+# Vim swap files
+*.sw*
+
+*.sublime-project
+
+clumsy-bird.sublime-workspace
+bower_components
