@@ -31,15 +31,6 @@ body {
   -ms-interpolation-mode: nearest-neighbor;
 }
 
-#share {
-  margin: 10px auto;
-  text-align: center;
-}
-
-#share .fb-share-button iframe {
-  margin-top: -4px;
-}
-
 @font-face {
   font-family: 'gamefont';
   src: url('data/css/gamefont.eot');

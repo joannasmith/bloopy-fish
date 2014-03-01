@@ -10,10 +10,7 @@ game.resources = [
 	 {name: "hit", type:"image", src: "data/img/hit.png"},
 	 {name: "getready", type:"image", src: "data/img/getready.png"},
 	 {name: "new", type:"image", src: "data/img/new.png"},
-	 {name: "share", type:"image", src: "data/img/share.png"},
-	 {name: "tweet", type:"image", src: "data/img/tweet.png"},
 
-	
 	 {name: "theme", type: "audio", src: "data/bgm/"},
 	 {name: "hit", type: "audio", src: "data/sfx/"},
 	 {name: "lose", type: "audio", src: "data/sfx/"},
