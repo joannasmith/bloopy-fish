@@ -117,7 +117,7 @@
           <aggregations>
             <aggregation>
               <insertNewLine>true</insertNewLine>
-              <output>${basedir}/target/built_js/built.js</output>
+              <output>${basedir}/target/${appengine.app.name}-${appengine.app.version}/built_js/built.js</output>
               <inputDir>${basedir}/src/main/js</inputDir>
               <includes>
                 <!-- Ensure that game.js comes first! -->
@@ -135,8 +135,8 @@
           <jswarn>true</jswarn>
           <nosuffix>false</nosuffix>
           <!-- Now actually minifiy the JS source. -->
-          <sourceDirectory>${basedir}/target/</sourceDirectory>
-          <outputDirectory>${basedir}/target/</outputDirectory>
+          <sourceDirectory>${basedir}/target/${appengine.app.name}-${appengine.app.version}/</sourceDirectory>
+          <outputDirectory>${basedir}/target/${appengine.app.name}-${appengine.app.version}/</outputDirectory>
         </configuration>
         <executions>
           <execution>
